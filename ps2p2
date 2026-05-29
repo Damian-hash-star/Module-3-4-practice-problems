@@ -1,0 +1,13 @@
+# Input stock infoamtion
+ticker = input("Enter stock ticker symbol: ")
+shares = float(input("Enter number of shares: "))
+cost_per_share = float(input("Enter cost per share: "))
+
+# Caluculate amount invested
+amount_invested = shares * cost_per_share
+
+# Dispaly results
+print("\nStock Ticker:", ticker)
+print("Number of Shares:", shares)
+print("Cost per Share: $", cost_per_share)
+print("Amount Invested: $", amount_invested)
