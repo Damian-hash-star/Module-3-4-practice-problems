@@ -1,1 +1,6 @@
+total_amount = float(input("Enter the total amount received: $"))
 
+share_per_person = total_amount / 3
+
+print("\nTotal Amount Received: $", total_amount)
+print("Each person will receive: $", round(share_per_person, 2))
