@@ -1,1 +1,14 @@
+purchase_price = float(input("Enter purchase price per share: $"))
+current_price = float(input("Enter current stock price: $"))
+quantity = int(input("Enter quantity of shares: "))
 
+value_change = (current_price - purchase_price) * quantity
+
+print(f"\nValue Change: ${value_change:.2f}")
+
+if value_change > 0:
+  print("You are making money.")
+elif value_change < 0:
+  print("You are losing money.")
+else:
+  print("No gain or loss")
